@@ -12,16 +12,21 @@ To install simply add to your load path and include as below:
     
 # Usage
 
-Provides a convenience method _yl/yank-line_ that takes a numeric argument
-which can be provided by C-u and copies the text from the given line skipping
-any initial indentation.
+Provides two convenience methods _yl/copy-line_ and _yl/yank-line_ that take
+a numeric argument which can be provided by C-u and copies the text from the
+given line skipping any initial indentation. If no numeric argument is provided
+then the current line is yanked or copied.
 
 Example:
 
-Kill text at line 20 (without deleting it) and place it on the kill ring so it
-can be pasted:
+To copy and paste the contents from line 20 in the current buffer you would do:
 
     C-u 20 M-x yl/yank-line
 
+To merely copy the contents from line 20 into the kill ring:
+
+    C-u 20 M-x yl/copy-line
+
 This is especially useful in a situation where you can see the line you would
-like to duplicate but want something faster than navigating to the line.
+like to duplicate but want something faster than navigating to the line and
+copying.
