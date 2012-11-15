@@ -1,7 +1,7 @@
 yank-line
 =========
 
-Emacs extension that allows a user to yank a specific line
+Emacs extension that allows a user to yank or copy a specific line by line number.
 
 # Installation
 
