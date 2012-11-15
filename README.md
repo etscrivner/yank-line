@@ -12,7 +12,7 @@ To install simply add to your load path and include as below:
     
 # Usage
 
-Provides two convenience methods _yl/copy-line_ and _yl/yank-line_ that take
+Provides two convenience methods __yl/copy-line__ and __yl/yank-line__ that take
 a numeric argument which can be provided by C-u and copies the text from the
 given line skipping any initial indentation. If no numeric argument is provided
 then the current line is yanked or copied.
