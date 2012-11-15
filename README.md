@@ -15,3 +15,6 @@ Kill text at line 20 (without deleting it) and place it on the kill ring so it
 can be pasted:
 
     C-u 20 M-x yl/yank-line
+
+This is especially useful in a situation where you can see the line you would
+like to duplicate but want something faster than navigating to the line.
