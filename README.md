@@ -3,6 +3,13 @@ yank-line
 
 Emacs extension that allows a user to yank a specific line
 
+# Installation
+
+To install simply add to your load path and include as below:
+
+    (add-to-list 'load-path "/path/to/yank-line")
+    (require 'yank-line)
+    
 # Usage
 
 Provides a convenience method _yl/yank-line_ that takes a numeric argument
