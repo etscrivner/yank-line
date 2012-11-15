@@ -19,7 +19,8 @@ then the current line is yanked or copied.
 
 Example:
 
-To copy and paste the contents from line 20 in the current buffer you would do:
+To copy the contents of line 20 and paste it at the current position you would
+do:
 
     C-u 20 M-x yl/yank-line
 
