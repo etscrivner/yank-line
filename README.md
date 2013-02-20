@@ -24,18 +24,15 @@ do:
 
     C-2-0 M-x yl/yank-line
 
-Or:
-    
-    C-u 20 M-x yl/yank-line
-
 To merely copy the contents from line 20 into the kill ring:
 
     C-2-0 M-x yl/copy-line
 
-Or:
+You can also use these slightly more long-winded alternatives:
 
+    C-u 20 M-x yl/yank-line
     C-u 20 M-x yl/copy-line
-
+    
 This is especially useful in a situation where you can see the line you would
 like to duplicate but want something faster than navigating to the line and
 copying.
