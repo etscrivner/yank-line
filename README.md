@@ -22,9 +22,17 @@ Example:
 To copy the contents of line 20 and paste it at the current position you would
 do:
 
+    C-2-0 M-x yl/yank-line
+
+Or:
+    
     C-u 20 M-x yl/yank-line
 
 To merely copy the contents from line 20 into the kill ring:
+
+    C-2-0 M-x yl/copy-line
+
+Or:
 
     C-u 20 M-x yl/copy-line
 
